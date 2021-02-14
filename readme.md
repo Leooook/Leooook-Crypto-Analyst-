@@ -32,5 +32,4 @@ Frontend  cd Crypto Analyst\frontend
 **Leo Zhao** - *Junior Web Developer [[Personal Website](https://leo-zhao-resume.netlify.app/) , [LinkedIn](www.linkedin.com/in/bohanzhao/)]
 
 
-
-Thanks for UTU Team provides me this precious opportunity .
+# Thanks for UTU Team provides me this precious opportunity .
