@@ -9,7 +9,6 @@ Crypto Analyst can show relevant attributes including ​Price​,​ 24h change
 ### Prerequisites 
 
 ```
-Backend                            Python
 Python                             3.7.3
 numpy                              1.16.2  
 Flask                              1.0.2    
@@ -19,18 +18,14 @@ pandas                             0.24.2
 pymongo                            3.11.3   
 ```
 ```
-Frontend                           React
-create-react-app                   3.4.1
-```
 
 ### How to run
 
 ```
 Backend   run Crypto Analyst\backend\api.py
 Frontend  cd Crypto Analyst\frontend  
-          npm start
+          npm start   
 ```
-
 
 ## Authors 
 
@@ -38,5 +33,4 @@ Frontend  cd Crypto Analyst\frontend
 
 
 
-
-## Finally thanks for UTU Team provides me this precious opportunity .
+Thanks for UTU Team provides me this precious opportunity .
