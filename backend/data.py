@@ -14,5 +14,3 @@ def getData():
 
         return data
      
-
-    
