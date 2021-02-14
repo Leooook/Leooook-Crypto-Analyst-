@@ -6,44 +6,6 @@ Crypto Analyst can show relevant attributes including ​Price​,​ 24h change
 
 ## Getting Started 
 
-Crypto Analyst
-│   readme.md
-│   UTU_Code_Test.pdf
-│
-├───backend
-│   │───api.py
-│   │───data.py
-│   │───db.py
-│   │───test.py
-│   
-└───frontend
-    │───.gitignore
-    │───package-lock.json
-    │───package.json
-    │───README.md
-    │
-    ├───node_modules
-    ├───public
-    │   |───index.html 
-    │
-    └───src
-        │   App.css
-        │   App.js
-        │   App.test.js
-        │   index.css
-        │   index.js
-        │   logo.svg
-        │   reportWebVitals.js
-        │   setupTests.js
-        │
-        ├───Component
-        │       Header.jsx
-        │       Info.jsx
-        │       Loading.jsx
-        │       Timepicker.jsx
-        │
-        └───Images
-
 ### Prerequisites 
 
 ```
