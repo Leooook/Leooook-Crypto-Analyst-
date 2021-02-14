@@ -17,7 +17,6 @@ Flask-RESTful                      0.3.8
 pandas                             0.24.2   
 pymongo                            3.11.3   
 ```
-```
 
 ### How to run
 
@@ -28,8 +27,7 @@ Frontend  cd Crypto Analyst\frontend
 ```
 
 ## Authors 
-
-* **Leo Zhao** - *Junior Web Developer [[Personal Website](https://leo-zhao-resume.netlify.app/) , [LinkedIn](www.linkedin.com/in/bohanzhao/)]
+**Leo Zhao** - *Junior Web Developer [[Personal Website](https://leo-zhao-resume.netlify.app/) , [LinkedIn](www.linkedin.com/in/bohanzhao/)]
 
 
 
