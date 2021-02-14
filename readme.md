@@ -25,6 +25,7 @@ Backend   run Crypto Analyst\backend\api.py
 Frontend  cd Crypto Analyst\frontend  
           npm start   
 ```
+![image](https://github.com/Leooook/Leooook-Crypto-Analyst-/blob/main/show_pic/show.jpg)
 
 ## Authors 
 **Leo Zhao** - *Junior Web Developer [[Personal Website](https://leo-zhao-resume.netlify.app/) , [LinkedIn](www.linkedin.com/in/bohanzhao/)]
