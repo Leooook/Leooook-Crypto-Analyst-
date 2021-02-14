@@ -1,0 +1,248 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--nav-black: rgba(14, 14, 14, 0.897);
+	--white: rgb(255, 255, 255);
+	--deep-blue: rgb(36, 122, 192);
+	--light-blue: rgb(72, 139, 194);
+	--grey: rgb(189, 189, 189);
+	--light-grey: rgb(209, 209, 209);
+	--capitial: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.app {
+	padding: 8vh 10px 30px 10px;
+	width: 100vw;
+	min-height: 100vh;
+}
+@media screen and (min-width: 900px) {
+	.app {
+		width: 80vw;
+		margin: auto;
+	}
+}
+/* Header */
+.header {
+	margin-left: 10%;
+	font-size: 2.5rem;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 550;
+	color: var(--capitial);
+	letter-spacing: 2px;
+}
+@media screen and (max-width: 400px) {
+	.header {
+		margin-left: 7%;
+		font-size: 2rem;
+	}
+}
+/* end of Header */
+/* Info */
+.info {
+	margin: 30px 10%;
+}
+.option-part {
+	width: 100%;
+	margin-bottom: 60px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.price-method {
+	margin-right: 10px;
+	font-size: 0.75rem;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.method {
+	margin-right: 30px;
+	height: 25px;
+	width: 90px;
+	font-size: 0.8rem;
+	letter-spacing: 0.5px;
+	color: var(--nav-black);
+	border-radius: 5px;
+	border-color: var(--grey);
+	transition: all 0.5s ease;
+	outline: none;
+	cursor: pointer;
+}
+.method:hover {
+	border-color: rgb(167, 167, 167);
+}
+.method:focus {
+	box-shadow: 0 0 8px rgb(167, 167, 167);
+}
+.data-part {
+	margin-top: 30px;
+}
+.data-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0 10px 3px;
+	border-bottom: 1px solid var(--light-grey);
+}
+.data-font {
+	font-size: 0.8rem;
+	letter-spacing: 0.5px;
+	font-weight: 600;
+	cursor: default;
+	position: relative;
+}
+.data-font-click {
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+.data-font-click:hover {
+	color: grey;
+}
+.data1 {
+	width: 5%;
+}
+.data2 {
+	width: 18%;
+	display: flex;
+	align-items: center;
+}
+.data3 {
+	width: 12%;
+}
+.data4 {
+	width: 10%;
+}
+.data5 {
+	width: 17.5%;
+}
+.show {
+	color: var(--grey);
+	align-items: center;
+	top: 1.2px;
+	margin-left: 1px;
+	position: absolute;
+}
+.not-show {
+	display: none;
+}
+.data {
+	display: flex;
+	align-items: center;
+	padding: 10px 5px 20px 5px;
+	margin: 10px 0;
+	border-bottom: 1px solid var(--light-grey);
+}
+.data-font-num {
+	font-size: 0.8rem;
+	color: var(--nav-black);
+}
+.data-icons {
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+}
+.data-font-name {
+	text-transform: capitalize;
+	font-size: 0.8rem;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 550;
+	letter-spacing: 0.5px;
+}
+.data-font-green {
+	color: rgb(15, 175, 15);
+}
+.data-font-red {
+	color: rgb(238, 16, 16);
+}
+@media screen and (max-width: 600px) {
+	.info {
+		margin: 30px 10px;
+	}
+	.option-part {
+		margin-bottom: 30px;
+	}
+	.data-font {
+		font-size: 0.65rem;
+	}
+	.data {
+		padding: 5px 5px 10px 5px;
+		margin: 10px 0;
+	}
+	.data-font-num {
+		font-size: 0.5rem;
+		color: var(--nav-black);
+	}
+	.data-icons {
+		width: 10px;
+		height: 10px;
+		margin-right: 5px;
+	}
+	.data-font-name {
+		font-size: 0.65rem;
+	}
+	.data-font-green {
+		color: rgb(15, 175, 15);
+	}
+	.data-font-red {
+		color: rgb(238, 16, 16);
+	}
+}
+@media screen and (min-width: 900px) {
+	.info {
+		margin: 60px 10%;
+	}
+	.data-part {
+		margin-top: 40px;
+	}
+	.data-font {
+		font-size: 1rem;
+	}
+	.data-font-num {
+		font-size: 0.95rem;
+		color: var(--nav-black);
+	}
+	.data-icons {
+		width: 15px;
+		height: 15px;
+	}
+	.data-font-green {
+		color: rgb(15, 175, 15);
+	}
+	.data-font-red {
+		color: rgb(238, 16, 16);
+	}
+}
+/* end of Info */
+/* Loading */
+.load {
+	width: 100%;
+}
+.loadPic {
+	width: 20%;
+	margin: 20vh 40%;
+}
+/* end of Loading */
+/* TimePicker */
+.custom-input {
+	padding: 6px 9px;
+	background-color: var(--deep-blue);
+	color: var(--white);
+	text-align: center;
+	font-size: 0.75rem;
+	letter-spacing: 1px;
+	border: none;
+	border-radius: 5px;
+	opacity: 0.9;
+	transition: all 0.5s ease;
+	outline: none;
+	cursor: pointer;
+}
+.custom-input:hover {
+	background-color: var(--light-blue);
+}
+.custom-input:focus {
+	background-color: var(--light-blue);
+	border-color: 1px solid var(--white);
+	box-shadow: 0 0 6px var(--light-blue);
+}
+/* end of TimePicker */
