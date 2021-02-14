@@ -26,6 +26,7 @@ Frontend  cd Crypto Analyst\frontend
           npm start   
 ```
 ![image](https://github.com/Leooook/Leooook-Crypto-Analyst-/blob/main/show_pic/show.jpg)
+![image](https://github.com/Leooook/Leooook-Crypto-Analyst-/blob/main/show_pic/show1.jpg)
 
 ## Authors 
 **Leo Zhao** - *Junior Web Developer [[Personal Website](https://leo-zhao-resume.netlify.app/) , [LinkedIn](www.linkedin.com/in/bohanzhao/)]
